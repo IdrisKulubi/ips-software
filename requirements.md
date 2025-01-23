@@ -175,4 +175,4 @@ These features will enhance the system over time but are not required for the in
 
 ## Conclusion
 
-This document serves as a roadmap to develop the Wi-Fi management solution. Start with the core features to deliver immediate value and expand functionality over time by implementing the additional features. Feel free to refine based on your progress and feedback from stakeholders.
+This document serves as a roadmap to develop the Wi-Fi management solution. 
