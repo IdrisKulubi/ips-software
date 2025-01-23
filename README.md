@@ -1,36 +1,132 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Wi-Fi Management Solution
+
+A comprehensive ISP management system built with Next.js 14, TypeScript, and modern web technologies. This solution helps automate and streamline ISP operations while providing a user-friendly interface for both administrators and end-users.
+
+## Features
+
+### Core Features (Phase 1)
+
+- 🔄 **Payment Automation**
+  - Automated billing processes
+  - SMS reminders (2 days before, 1 day before, day of disconnection)
+  - M-Pesa integration
+  - Payment confirmation notifications
+
+- 🌐 **Hotspot Management**
+  - User account creation and management
+  - Bandwidth and data limit controls
+  - Unique login credential generation
+
+- 🔌 **PPPoE Management**
+  - Automated account lifecycle management
+  - MikroTik router integration
+  - Real-time status monitoring
+
+- 📱 **SMS Gateway Integration**
+  - Cost-effective messaging (Ksh 0.4 per message)
+  - Automated notifications
+  - Payment reminders
+
+- 📊 **Analytics Dashboard**
+  - Payment history tracking
+  - Bandwidth usage statistics
+  - System health monitoring
+
+### Additional Features (Phase 2)
+
+- 🔐 Two-Factor Authentication (2FA)
+- 📦 Package Management System
+- 🖥️ Self-Service Portal
+- 📈 Lead Tracking
+- 🔔 Real-Time Router Status Notifications
+
+## Tech Stack
+
+- **Framework:** Next.js 14 (App Router)
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS
+- **UI Components:** Shadcn UI
+- **Database:** Neon DB
+- **Authentication:** [Coming Soon]
+- **Payment Integration:** M-Pesa
+- **Deployment:** Vercel
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
+- Node.js 18.17 or later
+- Package manager (npm, yarn, or pnpm)
+- Git
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone <https://github.com/IdrisKulubi/ips-software.git>
+cd ips-software
+```
+
+2. Install dependencies:
+```bash
+npm install
+or
+yarn install
+or
+pnpm install
+```
+
+3. Set up environment variables:
 ```bash
 npm run dev
-# or
+or
 yarn dev
-# or
+or
 pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
+```bash
+ips-software/
+├── src/
+│ ├── app/
+│ ├── components/
+│ │ ├── ui/
+│ │ └── themes/
+│ ├── hooks/
+│ └── lib/
+├── public/
+└── [configuration files]
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Development Guidelines
 
-## Learn More
+- Follow TypeScript best practices
+- Use functional components with hooks
+- Implement proper error handling
+- Write self-documenting code
+- Follow the established project structure
 
-To learn more about Next.js, take a look at the following resources:
+## Contributing
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## License
 
-## Deploy on Vercel
+[Add your license here]
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Support
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+For support, email [kulubiidris@gmail.com] .
+
+## Acknowledgments
+
+- Next.js team for the amazing framework
+- Shadcn UI for the beautiful components
+- All contributors who have helped shape this project
