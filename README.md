@@ -119,7 +119,6 @@ ips-software/
 
 ## License
 
-[Add your license here]
 
 ## Support
 
